@@ -1,0 +1,30 @@
+-- import: fastn-community.github.io/doc-site as ds
+-- import: admint.io/docs
+-- import: admint.io/lib
+-- import: fifthtry.github.io/admint-cs as cs
+-- import: admint.io/common
+-- import: fifthtry.github.io/admint-typography as typo
+-- import: admint.io/assets
+
+
+
+
+-- ds.page: Blog
+show-footer: true
+site-logo: $assets.files.static.admint-logo.svg
+colors: $cs.main
+types: $typo.types
+sections: $lib.sitemap.sections
+
+
+-- ds.page.footer:
+
+-- docs.footer:
+
+-- end: ds.page.footer
+
+-- ds.page.body:
+
+Documentation work in in progress.
+
+-- end: ds.page
